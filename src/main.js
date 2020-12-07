@@ -18,6 +18,9 @@ const router = new VueRouter({
           return { x: 0, y: 0 }
       }
   },
+  base: process.env.environment === 'production'
+  ? '/MDOD/'
+  : '/',
 })
 
 router.afterEach((to) => {
