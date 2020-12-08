@@ -2,41 +2,79 @@
 	<q-page>
 		<div class="q-pa-md">
 			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
-				<iframe width="1120" height="630" src="https://www.youtube.com/embed/g6WwvjNfNJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" max-width="100%" src="https://www.youtube.com/embed/g6WwvjNfNJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
-				<q-btn size="l" class="q-ma-sm" color="primary" @mouseenter="playAudio1" to="/InAgAsAg">
+				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio1">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 200px;">
-							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="30px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
 						<div class="column justify-center items-center gt-xs">
-							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="80px" />
+							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="30px" />
 							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
 						</div>
 					</template>
 				</q-btn>
-				<q-btn size="l" class="q-ma-sm" color="primary" @mouseenter="playAudio2" to="/InAgAsAs">
+				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio2">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 200px;">
-							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="30px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
 						<div class="column justify-center items-center gt-xs">
-							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="80px" />
+							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="30px" />
 							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
 						</div>
 					</template>
 				</q-btn>
-				<q-btn size="l" class="q-ma-sm" color="primary" @mouseenter="playAudio3" to="/InPaAsPa">
+				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio3">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 200px;">
-							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="30px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
 						<div class="column justify-center items-center gt-xs">
-							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="80px" />
+							<q-icon name="fas fa-volume-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="30px" />
+							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
+						</div>
+					</template>
+				</q-btn>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
+				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InAgAsAg">
+					<template slot="default">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="30px" />
+							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
+						</div>
+						<div class="column justify-center items-center gt-xs">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="30px" />
+							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
+						</div>
+					</template>
+				</q-btn>
+				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InAgAsAs">
+					<template slot="default">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="30px" />
+							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
+						</div>
+						<div class="column justify-center items-center gt-xs">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="30px" />
+							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
+						</div>
+					</template>
+				</q-btn>
+				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InPaAsPa">
+					<template slot="default">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 70px;">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="35px" />
+							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
+						</div>
+						<div class="column justify-center items-center gt-xs">
+							<q-icon name="fas fa-arrow-up" class="q-ml-xl q-mr-xl q-mt-xl q-mb-md" size="35px" />
 							<span class="text-capitalize text-weight-regular q-mb-md"> </span>
 						</div>
 					</template>
