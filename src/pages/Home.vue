@@ -41,7 +41,7 @@
 
 					<q-card-section class="q-pt-none">
 						<div>
-							<q-icon name="fas fa-play-circle" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
+							<q-icon name="fab fa-youtube" color="red" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							Klik op de play-knop om het filmpje te kijken.
 						</div>
 						<div>
@@ -49,7 +49,7 @@
 							Klik op luidsprekers om je keuzes te horen.
 						</div>
 						<div>
-							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
+							<q-icon name="fas fa-arrow-up" color="orange" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							Klik op de pijl die wijst naar het beste antwoord.
 						</div>
 					</q-card-section>
