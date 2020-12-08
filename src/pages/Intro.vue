@@ -7,7 +7,7 @@
 			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
 				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio1">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 10px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
@@ -19,7 +19,7 @@
 				</q-btn>
 				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio2">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 40px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
@@ -31,7 +31,7 @@
 				</q-btn>
 				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio3">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 40px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-volume-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
@@ -45,7 +45,7 @@
 			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
 				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InAg">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 40px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
@@ -57,7 +57,7 @@
 				</q-btn>
 				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InAs">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 40px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
@@ -69,7 +69,7 @@
 				</q-btn>
 				<q-btn size="sm" class="q-ma-md" padding="none" color="accent" to="/InPa">
 					<template slot="default">
-						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 40px;">
+						<div class="row justify-start items-center q-pl-lg lt-sm" style="width: 80px;">
 							<q-icon name="fas fa-arrow-up" class="q-ml-xs q-mr-md q-mt-md q-mb-md" size="40px" />
 							<span class="text-capitalize text-weight-regular q-ml-sm q-mr-md"> </span>
 						</div>
