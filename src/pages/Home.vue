@@ -33,7 +33,7 @@
 				</template>
 			</q-btn>
 			
-			<q-dialog v-model="alert" full-width>
+			<q-dialog v-model="alert">
 				<q-card>
 					<q-card-section>
 						<div class="text-h6">Help</div>

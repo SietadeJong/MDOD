@@ -2,7 +2,7 @@
 	<q-page>
 		<div class="q-pa-md">
 			<div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
-				<iframe width="560" height="315" max-width="100%" src="https://www.youtube.com/embed/1wkSwL80F9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/w0DcJcs_LUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 <div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 col-xl-7 row justify-center">
 				<q-btn size="sm" class="q-ma-md" padding="none" color="primary" @click="playAudio1">
